@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"github.com/maxn/utf8conv/constants"
+	"github.com/gadost/utf8conv/constants"
 )
 
 func main() {
