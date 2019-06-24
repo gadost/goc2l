@@ -3,9 +3,7 @@ light-well cli Cyrillic translator for web (utf8). Part of OwnCDN utils
 
 
 ## Install
-
-go build 
-go install 
+go install github.com/gadost/utf8conv
 
 ## Usage
 ```bash
