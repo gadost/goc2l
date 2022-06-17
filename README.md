@@ -1,4 +1,4 @@
-# utf8conv
+# goc2l
 
 light-well cli Cyrillic translator for web (utf8). Part of OwnCDN utils
 
