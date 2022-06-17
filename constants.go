@@ -1,6 +1,6 @@
-package constants
+package main
 
-var utf = map[string]string{
+var c2l = map[string]string{
 	"а": "a",
 	"б": "b",
 	"в": "v",
@@ -34,6 +34,9 @@ var utf = map[string]string{
 	"э": "e",
 	"ю": "yu",
 	"я": "ya",
+	" ": " "}
+
+var c2lspec = map[string]string{
 	"]": "",
 	"[": "",
 	"!": "",
@@ -48,10 +51,10 @@ var utf = map[string]string{
 	")": "",
 	"(": ""}
 
-func Utf(a string) string {
-	if _, found := utf[a]; found == false {
+func Cyr2Lat(a string) string {
+	if _, found := c2l[a]; found == false {
 		return a
 	} else {
-		return utf[a]
+		return c2l[a]
 	}
 }
